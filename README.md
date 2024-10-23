@@ -10,8 +10,8 @@ https://freecurrencyapi.com/
 
 ## Struktur Proyek
 - `lib/main.dart`: Berisi kode utama yang memulai aplikasi Flutter.
-- `lib/screens/currency_converter_home.dart`: Berisi kode layar utama aplikasi, tempat pengguna memasukkan mata uang dan jumlah yang akan dikonversi.
-- `lib/services/currency_service.dart`: Berisi logika untuk memanggil API FreeCurrencyAPI dan mengelola hasil respons API.
+- `lib/screen/currency_home.dart`: Berisi kode layar utama aplikasi, tempat pengguna memasukkan mata uang dan jumlah yang akan dikonversi.
+- `lib/service/currency_service.dart`: Berisi logika untuk memanggil API FreeCurrencyAPI dan mengelola hasil respons API.
 
 ## Instalasi
 
