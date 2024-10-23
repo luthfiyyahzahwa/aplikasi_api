@@ -1,16 +1,24 @@
-# aplikasi_api
+# Currency Converter App
 
-A new Flutter project.
+Aplikasi Konversi Mata Uang sederhana menggunakan Flutter, yang memungkinkan pengguna untuk mengonversi satu mata uang ke mata uang lain secara real-time menggunakan FreeCurrencyAPI.
 
-## Getting Started
+## API yang Digunakan
 
-This project is a starting point for a Flutter application.
+https://freecurrencyapi.com/
+FreeCurrencyAPI: API ini menyediakan data nilai tukar mata uang real-time yang digunakan dalam aplikasi ini.
 
-A few resources to get you started if this is your first Flutter project:
+## Struktur Proyek
+- lib/main.dart: Berisi kode utama yang memulai aplikasi Flutter.
+- lib/screens/currency_converter_home.dart: Berisi kode layar utama aplikasi, tempat pengguna memasukkan mata uang dan jumlah yang akan dikonversi.
+- lib/services/currency_service.dart: Berisi logika untuk memanggil API FreeCurrencyAPI dan mengelola hasil respons API.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Instalasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Perlu menginstal paket http yang diperlukan untuk mengirim permintaan HTTP ke API FreeCurrencyAPI dengan menjalankan perintah berikut di terminal:
+```bash
+flutter pub add http
+
+
+Nama : Luthfiyyah Zahwa Maitari
+NIM : H1101221008
+Mata Kuliah : Pengembangan Aplikasi Perangkat Bergerak (A)
