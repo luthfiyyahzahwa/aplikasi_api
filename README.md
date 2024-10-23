@@ -17,8 +17,3 @@ FreeCurrencyAPI: API ini menyediakan data nilai tukar mata uang real-time yang d
 Perlu menginstal paket http yang diperlukan untuk mengirim permintaan HTTP ke API FreeCurrencyAPI dengan menjalankan perintah berikut di terminal:
 ```bash
 flutter pub add http
-
-
-Nama : Luthfiyyah Zahwa Maitari
-NIM : H1101221008
-Mata Kuliah : Pengembangan Aplikasi Perangkat Bergerak (A)
