@@ -5,6 +5,7 @@ Aplikasi Konversi Mata Uang sederhana menggunakan Flutter, yang memungkinkan pen
 ## API yang Digunakan
 
 FreeCurrencyAPI: API ini menyediakan data nilai tukar mata uang real-time yang digunakan dalam aplikasi ini.
+
 https://freecurrencyapi.com/
 
 ## Struktur Proyek
